@@ -1,1 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+int main()
+{
+    float pre, vol, temp, masar;
+
+    printf("Exercicio 2 questao G \n\n");
+
+    printf("Informe a pressao do pneu: ");
+    scanf("%f", &pre);
+
+    printf("Informe o volume do pneu: ");
+    scanf("%f", &vol);
+
+    printf("Informe a temperatura do pneu: ");
+    scanf("%f", &temp);
+
+    masar = ((pre*vol)/(0.37*(temp+460)));
+
+    printf("A massa eh de: %.3f", masar);
+
+    return 0;
+}
