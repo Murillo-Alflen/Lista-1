@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+   int main() {
+    char nome[50];
+    int idade, dias_de_vida;
+    
+    printf("Digite o seu nome: ");
+    fgets(nome, 50, stdin);  
+     
+    printf("Digite a sua idade: ");
+    scanf("%d", &idade);
+
+    dias_de_vida = idade * 365;
+
+    printf("%s, voce viveu aproximadamente %d dias.\n", nome, dias_de_vida);
+
+    return 0;
+}
