@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float a1, r, an;
+    int n;
+
+
+    printf("\tExercicio 2 questao H)");
+
+    printf("\nEntre com o valor do primeiro termo: ");
+    scanf("%f",&a1);
+
+    printf("\nEntre com o valor do segundo termo: ");
+    scanf("%f",&r);
+
+    printf("\nEntre com o valor do terceiro termo: ");
+    scanf("%d",&n);
+
+    an = a1+(n-1)*r;
+
+    printf("\nE-nesimo termo da P.A. - an: %f\n\n", an);
+
+    return 0;
+}
