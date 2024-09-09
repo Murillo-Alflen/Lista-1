@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float alt, larg, cal, lata;
+    double pcima, qnt_lata;
+
+    printf("\tExercicio 2 Questao F\n\n");
+
+    printf("informe a altura da parede: ");
+    scanf("%f", &alt);
+
+    printf("informe a largura: ");
+    scanf("%f", &larg);
+
+    cal= (alt*larg);
+    lata= cal*300.0;
+    qnt_lata = lata/2000.0;
+
+    pcima = ceil(qnt_lata);
+
+    printf(" A sua parede tem %.1f m^2, logo precisa de %.1f lata(s) para pintar sua parede\n", cal, pcima);
+
+
+    return 0;
+}
