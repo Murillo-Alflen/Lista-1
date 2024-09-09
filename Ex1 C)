@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    printf("%d ", 4);  // Espaço após o número 4
-    printf("%d\n", 2);  // Quebra de linha após o número 2
+    printf("%d ", 4); 
+    printf("%d\n", 2);  
     return 0;
 }
