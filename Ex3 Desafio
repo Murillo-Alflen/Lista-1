@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+   int main() {
+
+    float precoAcao1 = 24.13;
+    float precoAcao2 = 11.00;
+    float precoAcao3 = 38.65;
+
+    float dividendoAcao1 = 17.00;
+    float dividendoAcao2 = 35.00;
+    float dividendoAcao3 = 25.00;
+
+    float valorAportado = 1000.00;
+
+
+    int quantidadeAcao1 = valorAportado / precoAcao1;
+    int quantidadeAcao2 = valorAportado / precoAcao2;
+    int quantidadeAcao3 = valorAportado / precoAcao3;
+
+
+    float dyAcao1 = (dividendoAcao1 / precoAcao1) * 100;
+    float dyAcao2 = (dividendoAcao2 / precoAcao2) * 100;
+    float dyAcao3 = (dividendoAcao3 / precoAcao3) * 100;
+
+
+    printf("Voce pode comprar %d acoes da Acao 1 com R$%.2f\n", quantidadeAcao1, valorAportado);
+    printf("DY da Acao 1: %.2f%%\n\n", dyAcao1);
+
+    printf("Voce pode comprar %d acoes da Acao 2 com R$%.2f\n", quantidadeAcao2, valorAportado);
+    printf("DY da Acao 2: %.2f%%\n\n", dyAcao2);
+
+    printf("Voce pode comprar %d acoes da Acao 3 com R$%.2f\n", quantidadeAcao3, valorAportado);
+    printf("DY da Acao 3: %.2f%%\n", dyAcao3);
+    return 0;
+}
